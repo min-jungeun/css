@@ -1,0 +1,46 @@
+li{
+    list-style: none;
+}
+/*
+.inlinetag,
+.blocktag{
+    padding: 3rem;
+}
+.inlinetag{
+    background-color: yellow;
+
+}
+.blocktag{
+    background-color: bisque;
+    text-align: right;
+}
+
+.inlinetag span{
+    background-color: black; 
+    color: white;
+}
+
+h2{
+    font-size: 3rem;
+    border: 1px solid black;
+} */
+
+.inlinetag h2{color: red;}
+
+.blocktag h2{
+    
+    border: 5px solid black;
+    border-radius: 3rem;
+
+    /*부모태그에 넣으면 아래 자식한테도 영향을 주는 스타일 요소 : 폰트*/
+    font-family: monospace; /*글자체*/
+    font-size: 3rem; /*글자사이즈 body태그를 기준으로 하는 단위 rem*/
+    text-align: center; /*글자 가운데정렬*/
+    letter-spacing: 1.2rem; /*자간*/
+    line-height: 3; /*한줄간격 위여백+글자사이즈+아래여백*/
+    color: green; /*글자색*/
+}
+
+.inlinetag,.blocktag{
+    line-height: 2;
+}
